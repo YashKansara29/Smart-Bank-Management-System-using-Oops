@@ -5,25 +5,25 @@ This project demonstrates core **Object-Oriented Programming (OOP)** principles 
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-### 🔹 Savings Account
+### Savings Account
 
 * Interest rate calculation
 * Enforces minimum balance requirement
 * Prevents withdrawals below defined threshold
 
-### 🔹 Current Account
+### Current Account
 
 * Integrated overdraft limit
 * Allows withdrawals beyond balance within defined limit
 
-### 🔹 Encapsulation
+### Encapsulation
 
 * Protected balance attribute (`_balance`)
 * Controlled access via class methods
 
-### 🔹 Transaction Logic
+### Transaction Logic
 
 * Deposit and withdrawal operations
 * Real-time balance updates
@@ -31,11 +31,11 @@ This project demonstrates core **Object-Oriented Programming (OOP)** principles 
 
 ---
 
-## 🛠 Architecture Overview
+## Architecture Overview
 
 The system follows a hierarchical class design:
 
-### 🔹 `BankAccount` (Base Class)
+### `BankAccount` (Base Class)
 
 **Attributes:**
 
@@ -52,7 +52,7 @@ The system follows a hierarchical class design:
 
 ---
 
-### 🔹 `SavingsAccount` (Child Class)
+### `SavingsAccount` (Child Class)
 
 * Adds `interest_rate`
 * Adds `minimum_balance`
@@ -68,15 +68,15 @@ The system follows a hierarchical class design:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### ✅ Prerequisites
+###  Prerequisites
 
 * Python 3.x installed
 
 ---
 
-### 🔧 Installation & Execution
+###  Installation & Execution
 
 Clone the repository:
 
@@ -98,7 +98,7 @@ python bank_system.py
 
 ---
 
-## 💻 Code Example
+## Code Example
 
 ```python
 # Create a Savings Account
@@ -111,7 +111,7 @@ savings.check_minimum_balance()
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 bank-management-system/
@@ -120,7 +120,7 @@ bank-management-system/
 └── bank_system.py     # Main Python source code
 ```
 
-## 💡 Future Improvements
+## Future Improvements
 
 * [ ] Integration with database (SQLite / PostgreSQL) for persistent storage
 * [ ] Add logging system
