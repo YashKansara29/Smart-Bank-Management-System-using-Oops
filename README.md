@@ -128,7 +128,3 @@ bank-management-system/
 * [ ] Multi-user authentication system
 * [ ] REST API integration using FastAPI
 * [ ] Graphical User Interface (GUI) using Tkinter
-
-
-
-Tell me which one you want next.
